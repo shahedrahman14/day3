@@ -1,0 +1,23 @@
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+    background-color: rgb(175, 219, 175);
+    border-radius: 12%;
+    -webkit-border-radius: 12%;
+    -moz-border-radius: 12%;
+    -ms-border-radius: 12%;
+    -o-border-radius: 12%;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: rgb(43, 255, 0);
+    
+}

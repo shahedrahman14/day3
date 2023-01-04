@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="/css/nav.css">
+
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+         <li> <a href="">Home</a></li>
+         <li><a href="form.html">Form</a></li>
+         <li><a href="nav.html">Nav</a></li>
+         <li>  <a href="table.html">Table</a></li>
+        </ul>
+     </nav> 
+    <label for="name">Your Name:
+        <input type="text" id="name" name="name" placeholder="Your Name">
+    </label>
+    
+    <label for="mail">Your E-mail:
+        <input type="email" id="mail" name="mail" placeholder="Your E-mail Address">
+
+    </label>
+    <label for="pass">Your Password:
+        <input type="password" id="pass" name="pass" placeholder="Enter Your Password">
+
+    </label>
+    <fieldset>
+        <legend> Pick One </legend>
+        <label for="chitoy"> Chitoy
+            <input type="radio" name="pita" id="chitoy">
+        </label>
+        <label for="vapa"> Vapa
+            <input type="radio" name="pita" id="vapa">
+        </label>
+        <label for="cocunut"> Cocunut
+            <input type="radio" name="pita" id="cocunut">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Pick one or more Vorta</legend>
+        <label for="patato">            <input type="checkbox" name="vorta" id="patato">
+            Patato
+        </label>
+        <label for="sorisa">            <input type="checkbox" name="vorta" id="sorisa">
+            Sorisa
+        </label>
+        <label for="dal">            <input type="checkbox" name="vorta" id="dal">
+            Dal
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend> Feedback:</legend>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </fieldset>
+    <input type="reset" value="reset">
+    <input type="submit" value="submit">
+</body>
+</html>
